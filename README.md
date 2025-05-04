@@ -4,6 +4,9 @@ In this repository there will be the two types of approaches to convert story to
 1. [Problem Statement](#Problem-Statement)
 2. [Approach 1: CPU](#approach-1-cpu)
 3. [Approach 2: GPU](#approach-2-gpu)
+4. [Gradio](#Gradio)
+5. [MicroService](#microservice)
+6. [Docker]((#docker )
 
 ## Problem Statement:
 -The problem is to create an audio book thats able to translate any sort of text to a humanized audio format. For this issue we have tried two different model approaches and can be used as such. 
@@ -35,6 +38,7 @@ For this approach we utilized a model named Bark by suno and it works increadibl
 ## Gradio:
 -For the UI we basically used a Gradio based application that was attached and its code is also there
 ## Micro Service:
+The micro service we used to link the front to backend is basically GRPC api and Gradio was the frontend.
 ## Docker:
 we have files of docker which you have to unzip in the folder of silero-models and then use terminal to run some commands in it and it will integrate all of this.
 -**Commands To Run**:
@@ -43,10 +47,18 @@ we have files of docker which you have to unzip in the folder of silero-models a
   docker run -p 50051:50051 silero
   ```
 In this case we have used GRPC to implement libraries being used in the folder:
--You can either use the requirements.txt file  
+-You can either use the requirements.txt file for downloading the libraries or we can just add them manually.
+-The last thing is to use the docker file to run it will work
+-**Commands To Run**:
+We basically used Visual studio Code(The blue one) for this as well and you have to run these commands on the terminal to add it.
+```sh
+  python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. tts.proto
+  pip install grpcio grpcio-tools
+  ```
 
-
-
+## Limitations:
+-Main issue was that we couldnt optimize the models highly to have a very human like audio format.
+-The were several dependencies issue.
 
 
 
