@@ -36,7 +36,7 @@ For this approach we utilized a model named Bark by suno and it works increadibl
   ```
   - **Load ,Save Model and Run**: For this step you need to add the model in just run the given file.
   - **🔊 Listen to the output:**
-  - [▶️Listen to the result]([https://sincera315.github.io/Pretrained_Story_to_Audio_Model_Integration_CPU-GPU/Audio_Output/Bark_Output.wav](https://github.com/sincera315/Pretrained_Story_to_Audio_Model_Integration_CPU-GPU/blob/4def1b5aad314108774892caded0e5501a27a4bf/Audio_Output/index.html))
+  - [▶️Listen to the result](https://github.com/sincera315/Pretrained_Story_to_Audio_Model_Integration_CPU-GPU/blob/4def1b5aad314108774892caded0e5501a27a4bf/Audio_Output/index.html)
 
 ## Gradio:
 -For the UI we basically used a Gradio based application that was attached and its code is also there
