@@ -35,7 +35,15 @@ For this approach we utilized a model named Bark by suno and it works increadibl
 ## Gradio:
 -For the UI we basically used a Gradio based application that was attached and its code is also there
 ## Micro Service:
-## Docker
+## Docker:
+we have files of docker which you have to unzip in the folder of silero-models and then use terminal to run some commands in it and it will integrate all of this.
+-**Commands To Run**:
+```sh
+  docker build -t silero
+  docker run -p 50051:50051 silero
+  ```
+In this case we have used GRPC to implement libraries being used in the folder:
+-You can either use the requirements.txt file  
 
 
 
