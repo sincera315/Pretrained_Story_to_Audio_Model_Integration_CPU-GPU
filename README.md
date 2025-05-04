@@ -41,7 +41,9 @@ For this approach we utilized a model named Bark by suno and it works increadibl
 ## Gradio:
 -For the UI we basically used a Gradio based application that was attached and its code is also there
 ![Image1](Front_End_Images/Image1.jpg)
+
 ![Image2](Front_End_Images/Image2.jpg)
+
 ![Image3](Front_End_Images/Image3.jpg)
 
 
