@@ -11,7 +11,7 @@ In this repository there will be the two types of approaches to convert story to
 ## Problem Statement:
 -The problem is to create an audio book thats able to translate any sort of text to a humanized audio format. For this issue we have tried two different model approaches and can be used as such. 
 
-## Approach 1:CPU: 
+## Approach 1: CPU: 
 -In this approach we basically used a pretrained model from github named silero-models i would like to say the orignal owner did a great work making this model all credits to him/her for that. The model works really well it uses converts the story to audio in quite amazing format. The voice is a bit monotonic but that is what we did try to optimize in this project.For this approach you have to:
 
   These were some libraries which I needed based on your terminal you can add certain files that your computer might not have so do check what else is required but is not installed in your computer.
