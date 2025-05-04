@@ -1,9 +1,9 @@
 # Pretrained_Story_to_Audio_Model_Integration_CPU-GPU
 In this repository there will be the two types of approaches to convert story to audio One of which is CPU approach while the other is GPU approach
 ## Table of Contents:
-1)_ Problem Statement
-2)_ [Approach 1:CPU](#approach 1:cpu)
-3)_[Approach 2: GPU](#approach 2:gpu)
+1. [Problem Statement](#Problem Statement)
+2. [Approach 1:CPU](#approach 1:cpu)
+3. [Approach 2: GPU](#approach 2:gpu)
 
 ## Problem Statement:
 -The problem is to create an audio book thats able to translate any sort of text to a humanized audio format. For this issue we have tried two different model approaches and can be used as such. 
