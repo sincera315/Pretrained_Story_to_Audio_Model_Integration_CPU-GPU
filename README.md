@@ -60,9 +60,9 @@ We basically used Visual studio Code(The blue one) for this as well and you have
   ```
 
 ## Limitations:
--Main issue was that we couldnt optimize the models highly to have a very human like audio format.
+-We didnt have any specific hardware like gpus for finetuning.
 
--The were several dependencies issue.
+- Models couldnt provide 100% results and the noise was a cherry on top
 
 
 
