@@ -70,7 +70,8 @@ We basically used Visual studio Code(The blue one) for this as well and you have
   ```
 
 ## Performance:
-The integrated output works quite well and here is the chart that shows the no of concurrent requests on X axis while the number of response times on the y axis as you can see the progress is quite smooth
+The integrated output works quite well and here is the chart that shows the no of concurrent requests on X axis while the number of response times on the y axis as you can see the progress is quite smooth.
+
 ![Performance_graph.png](Front_End_Images/performance_graph.png)
 
 ## Limitations:
