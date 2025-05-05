@@ -6,7 +6,9 @@ In this repository there will be the two types of approaches to convert story to
 3. [Approach 2: GPU](#approach-2-gpu)
 4. [Gradio](#Gradio)
 5. [MicroService](#microservice)
-6. [Docker]((#docker )
+6. [Docker](#docker)
+7. [Performance](#Performance)
+8. [Limmitations](#limitations)
 
 ## Problem Statement:
 -The problem is to create an audio book thats able to translate any sort of text to a humanized audio format. For this issue we have tried two different model approaches and can be used as such. 
@@ -66,6 +68,10 @@ We basically used Visual studio Code(The blue one) for this as well and you have
   python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. tts.proto
   pip install grpcio grpcio-tools
   ```
+
+## Performance:
+The integrated output works quite well and here is the chart that shows the no of concurrent requests on X axis while the number of response times on the y axis as you can see the progress is quite smooth
+![Performance_graph.png](Front_End_Images/performance_graph.png)
 
 ## Limitations:
 -We didnt have any specific hardware like gpus for finetuning.
